@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.parent {
+  height: 100vh;
+  border: 20px solid black;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.child1 {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(78, 78, 209);
+}
+.child2 {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(209, 78, 78);
+}
+.child3 {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(205, 78, 209);
+}
